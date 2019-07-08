@@ -1,4 +1,4 @@
 <% @songs.each do |x| %>
 <%binding.pry%>
-<%= link_to "#{x.artist.title} #{}", song_path(@songs) %>
+<%= link_to "#{x.artist.name} - #{x.title}", song_path(@songs) %>
 <% end %>
