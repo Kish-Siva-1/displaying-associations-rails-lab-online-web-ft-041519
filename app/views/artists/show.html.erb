@@ -1,3 +1,4 @@
 <%= link_to "The Grid", song_path(@artist) %>
-<%%>
-<%binding.pry%>
+<% @artist.song.each do |x| %>
+<%= x.song %>
+<% end %>
