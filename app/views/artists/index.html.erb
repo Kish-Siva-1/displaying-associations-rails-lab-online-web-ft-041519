@@ -1,7 +1,4 @@
 <% @artists.each do |x| %>
 <%= x.name %>
-<% end %>
-
-<% @artists.songs.counteach do |x| %>
-<%= x.name %>
+<%= x.songs.count %>
 <% end %>
