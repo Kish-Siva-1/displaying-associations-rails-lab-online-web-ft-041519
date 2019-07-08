@@ -1,3 +1,3 @@
 class Artist < ActiveRecord::Base
-  <%= link_to "The Grid", profile_path(@profile) %>
+  <%= link_to "The Grid", artist_path(@profile) %>
 end
